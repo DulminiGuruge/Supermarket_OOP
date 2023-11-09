@@ -34,5 +34,13 @@ public class GroceryProduct {
     public void setDiscount(double discount){
         this.discount = discount;
     }
+
+    public double getActualPrice(){
+        return (price - (price * (discount/100)));
+    }
+
+    public String toString(){
+        return("Name: "+ name + "\n"+ "Prince: "+ price + "\n"+ "Discount: "+ discount+"\n");
+    }
     
 }
