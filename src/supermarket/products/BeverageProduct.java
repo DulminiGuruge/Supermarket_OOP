@@ -1,5 +1,10 @@
 package supermarket.products;
 
+/**
+ * Implemented the concept of inheritence using the extend keyword to inherit from 
+ * the parent class
+ */
+
 public class BeverageProduct extends GroceryProduct{
     private SugarLevel SugarLevel;
 
