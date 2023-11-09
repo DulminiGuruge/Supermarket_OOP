@@ -21,10 +21,12 @@ public class DairyProduct extends GroceryProduct {
         this.Fat = Fat;
     }
 
-    
+    //override the toString method
+    public String toString(){
+        return super.toString()+"Fat Level: "+ Fat+"\n";
+    }
 
     
 
-    
-    
+
 }
